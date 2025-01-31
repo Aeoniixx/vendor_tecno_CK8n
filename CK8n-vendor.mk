@@ -101,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK8n/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron \
     vendor/tecno/CK8n/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service-st:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service-st \
     vendor/tecno/CK8n/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek \
-    vendor/tecno/CK8n/proprietary/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.mtk \
     vendor/tecno/CK8n/proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-mediatekv2 \
     vendor/tecno/CK8n/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/tecno/CK8n/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
@@ -947,7 +946,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK8n/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
     vendor/tecno/CK8n/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service-st.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service-st.rc \
     vendor/tecno/CK8n/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc \
-    vendor/tecno/CK8n/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/tecno/CK8n/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
     vendor/tecno/CK8n/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/tecno/CK8n/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
@@ -1536,10 +1534,10 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK8n/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     vendor/tecno/CK8n/proprietary/vendor/firmware/valhall-1691526.wa:$(TARGET_COPY_OUT_VENDOR)/firmware/valhall-1691526.wa \
     vendor/tecno/CK8n/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
-    vendor/tecno/CK8n/proprietary/vendor/lib/AV1SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AV1SecureVdecCA.so \
-    vendor/tecno/CK8n/proprietary/vendor/lib/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVdecCA.so \
+    vendor/tecno/CK8n/proprietary/vendor/lib/AV1SecureVdecCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib/AV1SecureVdecCA_510.so \
+    vendor/tecno/CK8n/proprietary/vendor/lib/AVCSecureVdecCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVdecCA_510.so \
     vendor/tecno/CK8n/proprietary/vendor/lib/HEVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/HEVCSecureVdecCA.so \
-    vendor/tecno/CK8n/proprietary/vendor/lib/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/VP9SecureVdecCA.so \
+    vendor/tecno/CK8n/proprietary/vendor/lib/VP9SecureVdecCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib/VP9SecureVdecCA_510.so \
     vendor/tecno/CK8n/proprietary/vendor/lib/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audio_common-aidl-cpp.so \
     vendor/tecno/CK8n/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/tecno/CK8n/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
@@ -1576,7 +1574,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK8n/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/tecno/CK8n/proprietary/vendor/lib/lib3a.af.assist.models.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.assist.models.so \
     vendor/tecno/CK8n/proprietary/vendor/lib/lib3a.aishutter.models.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.aishutter.models.so \
-    vendor/tecno/CK8n/proprietary/vendor/lib/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAVCSecureVencCA.so \
+    vendor/tecno/CK8n/proprietary/vendor/lib/libAVCSecureVencCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAVCSecureVencCA_510.so \
     vendor/tecno/CK8n/proprietary/vendor/lib/libCamera_gc02m1macromipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1macromipiraw_Flash_Capture.so \
     vendor/tecno/CK8n/proprietary/vendor/lib/libCamera_gc02m1macromipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1macromipiraw_Scene_Capture.so \
     vendor/tecno/CK8n/proprietary/vendor/lib/libCamera_gc02m1macromipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc02m1macromipiraw_Scene_Preview.so \
@@ -2091,10 +2089,10 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK8n/proprietary/vendor/lib64/APUWareHmpServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareHmpServer.so \
     vendor/tecno/CK8n/proprietary/vendor/lib64/APUWareUtilsServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareUtilsServer.so \
     vendor/tecno/CK8n/proprietary/vendor/lib64/APUWareXrpServer_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareXrpServer_v2.so \
-    vendor/tecno/CK8n/proprietary/vendor/lib64/AV1SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AV1SecureVdecCA.so \
-    vendor/tecno/CK8n/proprietary/vendor/lib64/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVdecCA.so \
+    vendor/tecno/CK8n/proprietary/vendor/lib64/AV1SecureVdecCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AV1SecureVdecCA_510.so \
+    vendor/tecno/CK8n/proprietary/vendor/lib64/AVCSecureVdecCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVdecCA_510.so \
     vendor/tecno/CK8n/proprietary/vendor/lib64/HEVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/HEVCSecureVdecCA.so \
-    vendor/tecno/CK8n/proprietary/vendor/lib64/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/VP9SecureVdecCA.so \
+    vendor/tecno/CK8n/proprietary/vendor/lib64/VP9SecureVdecCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib64/VP9SecureVdecCA_510.so \
     vendor/tecno/CK8n/proprietary/vendor/lib64/android.hardware.power-service-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-service-mediatek.so \
     vendor/tecno/CK8n/proprietary/vendor/lib64/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audio_common-aidl-cpp.so \
     vendor/tecno/CK8n/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
@@ -2112,7 +2110,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK8n/proprietary/vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss-impl-mediatek.so \
     vendor/tecno/CK8n/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so \
     vendor/tecno/CK8n/proprietary/vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so \
-    vendor/tecno/CK8n/proprietary/vendor/lib64/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@2.0-impl.so \
     vendor/tecno/CK8n/proprietary/vendor/lib64/hw/audio.primary.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6893.so \
     vendor/tecno/CK8n/proprietary/vendor/lib64/hw/audio.r_submix.mt6893.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6893.so \
     vendor/tecno/CK8n/proprietary/vendor/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.default.so \
@@ -2163,7 +2160,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/CK8n/proprietary/vendor/lib64/lib3a.n3d3a.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.n3d3a.so \
     vendor/tecno/CK8n/proprietary/vendor/lib64/lib3a.sensors.color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.sensors.color.so \
     vendor/tecno/CK8n/proprietary/vendor/lib64/lib3a.sensors.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.sensors.flicker.so \
-    vendor/tecno/CK8n/proprietary/vendor/lib64/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAVCSecureVencCA.so \
+    vendor/tecno/CK8n/proprietary/vendor/lib64/libAVCSecureVencCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAVCSecureVencCA_510.so \
     vendor/tecno/CK8n/proprietary/vendor/lib64/libCamera_gc02m1macromipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_gc02m1macromipiraw_Flash_Capture.so \
     vendor/tecno/CK8n/proprietary/vendor/lib64/libCamera_gc02m1macromipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_gc02m1macromipiraw_Scene_Capture.so \
     vendor/tecno/CK8n/proprietary/vendor/lib64/libCamera_gc02m1macromipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_gc02m1macromipiraw_Scene_Preview.so \

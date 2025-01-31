@@ -1,5 +1,5 @@
 <GameGPUMaster>
-    <version value="20240126"/>
+    <version value="20240701"/>
     <support value="1"/>
     <packagename>
         <package  name="com.tencent.ig"/>
@@ -15,9 +15,9 @@
         <package  name="com.dts.freefirethmax"/>
     </packagename>
     <gpu>
-        <gpumode name="GameConserveMode" aivrs="50" AF= "0" TF="1" minLOD="3" maxLOD="5"/>
-        <gpumode name="GameBalanceOpenMode" aivrs="60" AF= "0" TF="1" minLOD="2" maxLOD="5"/>
+        <gpumode name="GameConserveMode" aivrs="0" AF= "0" TF="0" minLOD="1001" maxLOD="1001"/>
+        <gpumode name="GameBalanceOpenMode" aivrs="0" AF= "0" TF="0" minLOD="1001" maxLOD="1001"/>
         <gpumode name="GameBalanceCloseMode" aivrs="0" AF= "0" TF="0" minLOD="1001" maxLOD="1001"/>
-        <gpumode name="GamePerformanceMode" aivrs="0" AF= "16" TF="0" minLOD="-2" maxLOD="0"/>
+        <gpumode name="GamePerformanceMode" aivrs="0" AF= "0" TF="0" minLOD="1001" maxLOD="1001"/>
     </gpu>
 </GameGPUMaster>
