@@ -2319,7 +2319,7 @@ PRODUCT_PACKAGES += \
     libimsma_socketwrapper \
     libmtk_vt_service \
     libsignal \
-    libsink \
+    libsink-mtk \
     libsource \
     libvt_avsync \
     ImsService \
