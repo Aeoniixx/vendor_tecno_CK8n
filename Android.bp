@@ -83,16 +83,16 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.biometrics.fingerprint@2.3-service.transsion.xml",
+	name: "android.hardware.biometrics.fingerprint@2.1-service-mediatek",
 	owner: "tecno",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.3-service.transsion.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service-mediatek.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml",
+	name: "android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu",
 	owner: "tecno",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml",
 	filename_from_src: true,
@@ -101,7 +101,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "gnss-mtk.xml",
+	name: "gnss-mtk",
 	owner: "tecno",
 	src: "proprietary/vendor/etc/vintf/manifest/gnss-mtk.xml",
 	filename_from_src: true,
@@ -110,7 +110,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "gnss@2.1-service.xml",
+	name: "gnss@2.1-service",
 	owner: "tecno",
 	src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-service.xml",
 	filename_from_src: true,
@@ -119,7 +119,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "lbs_hidl_service@1.0.xml",
+	name: "lbs_hidl_service@1.0",
 	owner: "tecno",
 	src: "proprietary/vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml",
 	filename_from_src: true,
@@ -128,7 +128,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "lights-mtk-default.xml",
+	name: "lights-mtk-default",
 	owner: "tecno",
 	src: "proprietary/vendor/etc/vintf/manifest/lights-mtk-default.xml",
 	filename_from_src: true,
@@ -137,7 +137,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.4-service.widevine.xml",
+	name: "manifest_android.hardware.drm@1.4-service.widevine",
 	owner: "tecno",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
 	filename_from_src: true,
@@ -146,7 +146,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_hwcomposer.xml",
+	name: "manifest_hwcomposer",
 	owner: "tecno",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_hwcomposer.xml",
 	filename_from_src: true,
@@ -155,7 +155,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_media_c2_V1_2_default.xml",
+	name: "manifest_media_c2_V1_2_default",
 	owner: "tecno",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml",
 	filename_from_src: true,
@@ -164,7 +164,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_tneengine.xml",
+	name: "manifest_tneengine",
 	owner: "tecno",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_tneengine.xml",
 	filename_from_src: true,
@@ -173,7 +173,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.mediatek.hardware.tranHwInfo@1.0.xml",
+	name: "vendor.mediatek.hardware.tranHwInfo@1.0",
 	owner: "tecno",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.mediatek.hardware.tranHwInfo@1.0.xml",
 	filename_from_src: true,
@@ -182,7 +182,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.transsion.hardware.trancam.trancamserver@1.0.xml",
+	name: "vendor.transsion.hardware.trancam.trancamserver@1.0",
 	owner: "tecno",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.transsion.hardware.trancam.trancamserver@1.0.xml",
 	filename_from_src: true,
