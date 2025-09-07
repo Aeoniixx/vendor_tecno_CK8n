@@ -1700,6 +1700,7 @@ PRODUCT_PACKAGES += \
     libaal_key \
     libaal_mtk \
     libaalservice \
+    libadpcmdec_mtk \
     libaedv \
     libalsautils-v31 \
     libapmonitor_vendor \
@@ -1786,6 +1787,7 @@ PRODUCT_PACKAGES += \
     libmml \
     libmmprofile \
     libmnetlink_v104 \
+    libmp3dec_mtk \
     libmsbc_mtk \
     libmtcloader \
     libmtk_bsg \
@@ -1834,6 +1836,8 @@ PRODUCT_PACKAGES += \
     libtflite_mtk \
     libthha \
     libtlcWidevineModularDrm \
+    libtneclient \
+    libtranlog \
     libtranslator_mapi_v3.0 \
     libtranslator_mdmi_v2.8.2 \
     libtranslator_utils \
@@ -1841,7 +1845,6 @@ PRODUCT_PACKAGES += \
     liburee_meta_drmkeyinstall \
     libvcodec_oal \
     libvcodecdrv_header_stub \
-    libvibrator \
     libvow_ap_test_aa \
     libvow_ap_test_dd \
     libvow_ap_test_ha \
@@ -1915,7 +1918,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.7 \
     vendor.mediatek.hardware.pq@2.8 \
     vendor.mediatek.hardware.pq@2.9 \
-    _vendor \
+    vendor.mediatek.hardware.videotelephony@1.0_vendor \
     vendor.transsion.hardware.trancam.trancamserver@1.0 \
     android.hardware.thermal@2.0-impl \
     awinic.audio.effect \
@@ -1925,7 +1928,6 @@ PRODUCT_PACKAGES += \
     libh264dec_sd.ca7 \
     libh264dec_se.ca7 \
     libh264enc_sa.ca7 \
-    libmp3dec_mtk \
     libmp4enc_sa.ca7 \
     libmp4enc_xa.ca7 \
     librcs_interface \
@@ -2029,7 +2031,6 @@ PRODUCT_PACKAGES += \
     libaaa_ltm \
     libaaa_ltmx \
     libacdk \
-    libadpcmdec_mtk \
     libaiawb_moon \
     libaiawb_moon_model \
     libaiawb_p1ggm \
@@ -2140,6 +2141,7 @@ PRODUCT_PACKAGES += \
     libksensor \
     liblpcnr \
     libmagicsky_64 \
+    libmegface \
     libmfllcore \
     libminizip \
     libmipc \
@@ -2239,12 +2241,10 @@ PRODUCT_PACKAGES += \
     libtflite_native_gainference \
     libtflite_native_inference \
     libtflite_native_seginference \
-    libtneclient \
     libtnev \
     libtran_sensorhub_oismgr \
     libtrancamJsonConvertor \
     libtrancam_filelockmgr \
-    libtranlog \
     libtranssion_bodybeauty \
     libtranssion_cal \
     libtrm \
@@ -2306,7 +2306,7 @@ PRODUCT_PACKAGES += \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
     libmtk_vt_wrapper \
-    _system_ext \
+    libmtkperf_client_system_ext \
     libvcodec_cap \
     libvcodec_capenc \
     vendor.mediatek.hardware.mtkpower-V1-ndk \
@@ -2332,18 +2332,18 @@ PRODUCT_PACKAGES += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
-    android.hardware.biometrics.fingerprint@2.1-service-mediatek \
-    android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \
-    gnss-mtk \
-    gnss@2.1-service \
-    lbs_hidl_service@1.0 \
-    lights-mtk-default \
-    manifest_android.hardware.drm@1.4-service.widevine \
-    manifest_hwcomposer \
-    manifest_media_c2_V1_2_default \
-    manifest_tneengine \
-    vendor.mediatek.hardware.tranHwInfo@1.0 \
-    vendor.transsion.hardware.trancam.trancamserver@1.0 \
+    android.hardware.biometrics.fingerprint@2.1-service-mediatek.xml \
+    android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml \
+    gnss-mtk.xml \
+    gnss@2.1-service.xml \
+    lbs_hidl_service@1.0.xml \
+    lights-mtk-default.xml \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
+    manifest_hwcomposer.xml \
+    manifest_media_c2_V1_2_default.xml \
+    manifest_tneengine.xml \
+    vendor.mediatek.hardware.tranHwInfo@1.0.xml \
+    vendor.transsion.hardware.trancam.trancamserver@1.0.xml \
     atcid \
     audiocmdservice_atci \
     autobt \
